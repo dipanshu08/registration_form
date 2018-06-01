@@ -22,23 +22,23 @@
         <fieldset>
           <legend>Contact Information</legend>
 
-          <label for='name'>Full Name</label>
-          <input type='text' id='name' name='user_name' placeholder="Required" required />
+          <label for='name' class='blk'>Full Name</label>
+          <input type='text' id='name' name='user_name' placeholder="Required" required class='blk' />
 
-          <label for='email'>Email Address</label>
-          <input type='email' id='email' name='user_email' placeholder="Required" required />
+          <label for='email' class='blk'>Email Address</label>
+          <input type='email' id='email' name='user_email' placeholder="Required" required class='blk' />
 
-          <label for='phone'>Phone Number</label>
-          <input type='phone' id='phone' name='user_phone' />
+          <label for='phone' class='blk'>Phone Number</label>
+          <input type='number' id='phone' name='user_phone' class='blk' />
 
-          <label for='street_address'>Stree Address</label>
-          <input type='text' id='street_address' name='user_street_address' />
+          <label for='street_address' class='blk'>Street Address</label>
+          <input type='text' id='street_address' name='user_street_address' class='blk' />
 
-          <label for='city'>City</label>
-          <input type='text' id='city' name='user_city' />
+          <label for='city' class='blk'>City</label>
+          <input type='text' id='city' name='user_city' class='blk' />
 
-          <label for='state'>State</label>
-          <select id='state' name='user_state'>
+          <label for='state' class='blk'>State</label>
+          <select id='state' name='user_state' class='blk'>
             <option value="delhi">Delhi</option>
             <option value="punjab">Punjab</option>
             <option value="haryana">Haryana</option>
@@ -47,27 +47,27 @@
             <option value="rajasthan">Rajasthan</option>
           </select>
 
-          <label for='zip_code'>Zip Code</label>
-          <input type='number' id='zip_code' name='user_zip_code' />
+          <label for='zip_code' class='blk'>Zip Code</label>
+          <input type='number' id='zip_code' name='user_zip_code' class='blk' />
         </fieldset>
 
-        <fieldset>
-          <legend>Newsletter</legend>
+        <fieldset class="newsletter">
+          <legend class='blk'>Newsletter</legend>
 
-          <label>Select the newsletters you would like to recieve</label>
-          <input type='checkbox' id='html_news' name='news_type' value='html_news' /><label for='html_news'>HTML News</label>
-          <input type='checkbox' id='css_news' name='news_type' value='css_news' /><label for='css_news'>CSS News</label>
+          <label class='blk'>Select the newsletters you would like to recieve</label>
+          <input type='checkbox' id='html_news' name='news_type' value='html_news' /><label for='html_news'>HTML News</label><br />
+          <input type='checkbox' id='css_news' name='news_type' value='css_news' /><label for='css_news'>CSS News</label><br />
           <input type='checkbox' id='javascript_news' name='news_type' value='javascript_news' /><label for='javascript_news'>Javascript News</label>
 
-          <label>Newsletter format</label>
-          <input type='radio' id='html_format' name='news_format' value='html_format' /><label for='html_format'>HTML</label>
+          <label class='blk'>Newsletter format</label>
+          <input type='radio' id='html_format' name='news_format' value='html_format' /><label for='html_format'>HTML</label><br />
           <input type='radio' id='text_format' name='news_format' value='text_format' /><label for='text_format'>Plain text</label>
 
-          <label for='comment'>Other topics you'd like to hear about</label>
+          <label for='comment' class='blk'>Other topics you'd like to hear about</label>
           <textarea id='comment' name='user_comment'></textarea>
         </fieldset>
 
-        <button type='submit'>Sign Up</button>
+        <button type='submit' class='blk'>Sign Up</button>
       </form>
     </main>
 
