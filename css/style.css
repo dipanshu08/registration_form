@@ -90,6 +90,11 @@ textarea {
   height: auto;
   margin-bottom: 20px;
   outline: 0;
+  transition: background-color 1s ease-in;
+}
+
+input:focus {
+  background-color: #FFFFFF;
 }
 
 input::placeholder {
